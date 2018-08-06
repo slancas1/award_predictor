@@ -1,19 +1,6 @@
 # Awards Show Predictor
 
-<center><img src="https://github.com/slancas1/budapest_research/blob/master/pictures/machinelearning.png" /></center>
+During the spring semester of 2018 I took a class called Social Sensing and Cyber-Physical Systems. A major component of this class was a semester long group project that focused on social sensing and making use of humans as sensors to create a predictive model or data map of some sort. For this project I worked with Aidan Lewis ([@aidanlewis9]) and Alex Ayala ([@aayala4]) to create a predictive model for awards shows such as the Oscars. Specifically, we aimed to see if we could predict the nominees and winner of the Best Picture category of the Oscars. We did this by collecting data for multiple movies from a variety of sources for two different years, 2016 and 2017. We used the 2016 data to train our model and create a list of optimized weights for each of the different types of data. We then used these optimized weights in conjunction with the 2017 data to predict that 2017 nominees and winner. With the genetic algorithm method we were able to predict up to 7 out of the 9 2017 nominees correctly but were not able to predict the winner. We then used a random forest classifier to benchmark our results and were able to predict up to 8 out of the 9 2017 nominees. We were pleased with these results but also identified future areas for growth. For example by training our model on more years of previous data and by including more data sources we could hopefully improve the accuracy of our predictions. More details of this project are outlined in the separate folders that can be found in this repository.
 
-I spent the summer in Budapest, Hungary doing research about machine learning at Pázmány Péter Catholic University. The research that I did this summer was funded by a [NSF IRES grant] and sponsored by Professor [Michael Niemier] at the University of Notre Dame. My research partner this summer was John McGuinness ([@jmcguinness11]) and we collaborated on almost all of the projects that can be found in this repository. My supervisor at Pázmány was Andras Horvath who was extremely generous with his time and help. I could not have accomplished anywhere near what I did this summer without his help and am eternally grateful for the part that he played in this experience. 
-
-## Libraries and Data Sets
-
-This summer we used [TensorFlow] to create and analyze neural networks. We also ended up using [NumPy] as the two Python libraries work very nicely together. In order to conduct our research this summer we used three different data sets. The first data set we used was the [MNSIT] dataset. This data set is a database of handwritten digits and has a training set of 60,000 images and a test set of 10,000 images. I would say that this is the data set that we worked with the most because it is typically the "base case" that is found in most machine learning literature. The second data set we used was the [Omniglot] dataset. This data set contains 1,623 handwritten characters from 50 different alphabets. This data set is typically found in one-shot learning literature because there are only 20 elements for any given class which is very small when compared to MNIST or CIFAR. The final data set that we worked with this summer was the [CIFAR-10] dataset. This data set consists of 60,000 color images all belonging to one of ten different classes. This is the data set I worked with the least, but it is a very common data set in machine learning literature. While I did not upload all of the data sets to this repository, there is a directory in the repository called [data] where parts of these data sets can be found. The parts of the data sets that can be found in this directory are the parts that I used this summer. 
-
-[TensorFlow]: https://www.tensorflow.org/
-[MNIST]: http://yann.lecun.com/exdb/mnist/
-[Omniglot]: https://github.com/brendenlake/omniglot
-[CIFAR-10]: https://www.cs.toronto.edu/~kriz/cifar.html
-[NumPy]: http://www.numpy.org/
-[Michael Niemier]: http://www.cse.nd.edu/~mniemier/
-[NSF IRES grant]: https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12831
-[@jmcguinness11]: https://github.com/jmcguinness11
-[data]: https://github.com/slancas1/budapest_research/tree/master/data
+[@aidanlewis9]: https://github.com/aidanlewis9
+[@aayala4]: https://github.com/aayala4

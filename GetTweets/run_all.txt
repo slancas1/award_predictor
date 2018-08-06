@@ -1,0 +1,8 @@
+To run the tweet analysis for all the movies:
+
+1. Update movies.txt with all the new movies
+2. Run run_movies.py (overnight on sslab)
+3. Run run_analysis.py (will probs take 20 minutes)
+4. Run consolidate_tweets.py
+
+Final files are counts.csv and sentiments.csv
