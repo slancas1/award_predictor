@@ -1,3 +1,4 @@
+# Genetic Algorithm
 The training algorithm we used is a genetic algorithm which trains on 2016 Oscars data, and consists of the following steps:
 1.	Initial Population: An initial set of 1000 parameter sets for the fitness function will be randomly generated to make the “population” of parameters.
 2.	Fitness Function: After assigning a score based on the algorithm above to each movie, the algorithm will sort by that movie score. The fitness function in this case gives the parameter set a higher fitness the closer the actual winner and nominees are to the front of the list with a slightly higher weight on the winner. The fitness also gets lowered if the predicted winner and/or nominees are not the true winner/nominees.
@@ -9,3 +10,4 @@ The training algorithm we used is a genetic algorithm which trains on 2016 Oscar
  
 This algorithm allows us to optimize the weights we use for our predictor since a parameter set is “rewarded” for better matching the true results of the past Oscar award show.
 
+This folder contains all of the code necessary to run the genetic algorithm. A lot of the files in this folder are used to parse, normalize, and reformat the data. One of the files is used to actually run the training and testing of the genetic algorithm.  
